@@ -24,4 +24,9 @@ The fun part is that you can put workspaces inside other workspaces. TODO: exper
 
 ### Installation
 
-
+```
+cd /tmp
+git clone https://github.com/Antithesisx/ws.git
+cp ws/ws.fish $HOME/.config/fish/functions/
+echo "set ws" >> $HOME/.config/fish/config.fish
+```
